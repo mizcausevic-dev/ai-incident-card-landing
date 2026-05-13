@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://incidents.kineticgain.com/sitemap.xml
