@@ -73,7 +73,7 @@
           </article>
           <article class="card">
             <h3>Regulatory hooks first-class</h3>
-            <p><code>regulatory.reported_to[]</code> ∈ <code>{eu-ai-act-art-73, us-omb-m-24-10, ferpa, coppa, hipaa, gdpr, state-attorney-general, fda-21-cfr-11}</code>. EU AI Act Article 73 requires serious-incident filing in 15 days — the schema captures whether that deadline was met.</p>
+            <p><code>regulatory.reported_to[]</code> ∈ <code>{eu-ai-act-art-73, us-omb-m-24-10, ferpa, coppa, hipaa, gdpr, state-attorney-general, fda-21-cfr-11}</code>. The schema records a vendor-declared reporting status and filing URI; it does not determine which legal duties or deadlines apply.</p>
           </article>
           <article class="card">
             <h3>Withdrawal preserves history</h3>
@@ -103,7 +103,8 @@
 
     <section id="example" class="block">
       <div class="block-inner">
-        <h2>A canonical example</h2>
+        <h2>An illustrative example</h2>
+        <p class="prose">This is a fictional incident scenario. It does not report an actual child-safety incident, affected learner, regulatory filing, remediation, or deployment.</p>
         <pre class="code-block"><code>{
   "incident_card_version": "0.1",
   "incident": {
